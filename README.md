@@ -10,7 +10,7 @@ On Ubuntu bionic:
 curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-bionic-td-agent3.sh | sh
 ```
 
-(<https://docs.fluentd.org/v1.0/articles/python#installing-fluentd>
+(<https://docs.fluentd.org/v1.0/articles/python#installing-fluentd>)
 
 ### Configuration
 
