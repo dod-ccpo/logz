@@ -20,12 +20,14 @@ sudo cp server/td-agent.conf /etc/td-agent/td-agent.conf
 
 ### Running
 
+```
 sudo service td-agent start
+```
 
 ## Client
 
 The configuration below sends nginx logs from a service, such as
-ATST to the logz server.
+ATST, to the logz server.
 
 ### Installation
 
@@ -44,11 +46,12 @@ sudo cp client/td-agent.conf /etc/td-agent/td-agent.conf
 ### Running
 
 For development we run an SSH tunnel in a screen session
-to logz.  The configuration file included sends logs
-to localhost, which get tunneled to the logz.
+to logz-dev.  The configuration file included sends logs
+to localhost, which is then tunneled to logz-dev.
 
 ```
 script/start-tunnel.sh
+tail -f /var/log/td-agent/atat-nginx/*.log  # Optional
 # ^A:detach<CR>
 sudo service td-agent start
 ```
