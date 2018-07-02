@@ -4,17 +4,16 @@
 
 ### Installation
 
-On Ubuntu bionic, there is a script to add a repo and install td-agent:
+On Ubuntu bionic, the [documentation](https://docs.fluentd.org/v1.0/articles/python#installing-fluentd)
+recommends a script to add a repo and install td-agent:
 
 ```
 curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-bionic-td-agent3.sh | sh
 ```
 
-(<https://docs.fluentd.org/v1.0/articles/python#installing-fluentd>)
-
 ### Configuration
 
-THe steps below are based on this documentation: https://docs.fluentd.org/v1.0/articles/in_forward#how-to-enable-tls-encryption
+The steps below are based on [this](https://docs.fluentd.org/v1.0/articles/in_forward#how-to-enable-tls-encryption) documentation.
 
 ## Steps to configure the server (logz).
 
