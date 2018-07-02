@@ -104,14 +104,14 @@ Details:
 ### Verifying that things are working.
 
 This setup collects nginx logs and stores them on the server in
-/var/log/td-agent/atat-nginx*.log.  To see what is going on
-type this into a terminal window:
+`/var/log/td-agent/atat-nginx*.log`.  To see it in action, ssh
+to logz and type this into a terminal window:
 
     sudo su -
     tail -f /var/log/td-agent/atat-nginx*.log
 
-Then try:
+Then somewhere else, try:
 
     curl https://www.atat.logs/?test=12345
 
-and watch as the log entry appears in the window.
+and watch as the log entry appears in the logz window.
