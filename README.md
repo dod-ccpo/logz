@@ -60,7 +60,7 @@ The steps below are based on [this](https://docs.fluentd.org/v1.0/articles/in_fo
 
     sudo service td-agent start
 
-### Client
+## Client
 
 The configuration below sends nginx logs from a service, such as
 ATST, to the logz server.
@@ -100,7 +100,7 @@ Details:
     sudo service td-agent start
 
 
-### Verifying that things are working.
+## Verifying that things are working.
 
 This setup collects nginx logs and stores them on the server in
 `/var/log/td-agent/atat-nginx*.log`.  To see it in action, ssh
