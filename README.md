@@ -29,7 +29,7 @@ THe steps below are based on this documentation: https://docs.fluentd.org/v1.0/a
 
 1. Generate an SSL certificate.  Save the passphrase.
 
-      openssl req -new -x509 -sha256 -days 1095 -newkey rsa:2048 \
+       openssl req -new -x509 -sha256 -days 1095 -newkey rsa:2048 \
                 -keyout fluentd.key -out fluentd.crt
 
 2. Add the passphrase for the cert to the configuration file.
