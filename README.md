@@ -111,6 +111,6 @@ to logz and type this into a terminal window:
 
 Then somewhere else, try:
 
-    curl https://www.atat.logs/?test=12345
+    curl https://www.atat.codes/?test=12345
 
 and watch as the log entry appears in the logz window.
